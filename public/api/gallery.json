@@ -1,0 +1,362 @@
+[{
+    "id": "1",
+    "section": "Clients",
+    "title": "Smokestik Electronic Cigarettes",
+    "subhead": "Magento Ecommerce",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#66a6fe",
+    "gradient_end": "#88f7ff",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/smokestik/list/smokestik-eletronic-cigarettes_fb1kav_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "2",
+    "section": "Clients",
+    "title": "Gold & Silver Buyers",
+    "subhead": "Custom Design & Development",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#bd813b",
+    "gradient_end": "#f8da80",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/goldwiser/list/goldwiser_rt2i2w_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "3",
+    "section": "Clients",
+    "title": "Uncle Julios",
+    "subhead": "Custom Design & Development",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#faa405",
+    "gradient_end": "#f72215",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/unclejulios/list/uncle-julios_ifs2vh_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "4",
+    "section": "Clients",
+    "title": "Lonestar Banners & Flags",
+    "subhead": "Custom Design & Development",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#002b65",
+    "gradient_end": "#9bacc2",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/lonestar/list/lonestar_cop4u3_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "5",
+    "section": "Clients",
+    "title": "Southern Painting",
+    "subhead": "Custom Design & Development",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#ffd2d2",
+    "gradient_end": "#656768",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/southernpainting/list/southern-painting_ynus3s_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "6",
+    "section": "Clients",
+    "title": "Treasure Tithes",
+    "subhead": "Custom Design & Development",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#E54B25",
+    "gradient_end": "#FFFFFF",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/treasuretithes/list/treasure-tithes_byjm6b_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "7",
+    "section": "Clients",
+    "title": "Warriors Worship Center",
+    "subhead": "Custom Design & Development",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#390e0f",
+    "gradient_end": "#fea560",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/warriors/list/warriors-worship-center_tnpdab_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "8",
+    "section": "Clients",
+    "title": "Living Waters",
+    "subhead": "Custom Design & Development",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#028096",
+    "gradient_end": "#c5ebec",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/livingwaters/list/living-waters_gpeb1e_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "9",
+    "section": "Clients",
+    "title": "Kenneth Ramey Photography",
+    "subhead": "Custom Design & Development",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#232a39",
+    "gradient_end": "#ffbb59",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/kramey/list/kenneth-ramery_sh6phy_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "10",
+    "section": "Clients",
+    "title": "Joyashi",
+    "subhead": "Custom Design & Development",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/joyashi/list/joyashi_vewboo_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "11",
+    "section": "Clients",
+    "title": "Malezieux Art",
+    "subhead": "Custom Design & Development",
+    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+    "enabled": true,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "filters": ["work"],
+    "protected": true,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/work/malezieuxart/list/malezieux_chnhd8_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "11",
+    "section": "Gallery",
+    "title": "Plasma Melter",
+    "subhead": "Autodesk 3D Studio",
+    "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "filters": ["play","autodesk"],
+    "protected": false,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/gallery/melter/list/melter_xfyfx7_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "13",
+    "section": "Gallery",
+    "title": "Comptemporary Textures",
+    "subhead": "Autodesk 3D Studio",
+    "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+    "enabled": true,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "filters": ["play","autodesk"],
+    "protected": false,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/gallery/textures/list/textures_mc48n5_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "14",
+    "section": "Gallery",
+    "title": "Notepad Family",
+    "subhead": "Adobe Photoshop",
+    "description": "Sections 1.10.32 and 1.10.33 from Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "enabled": true,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "filters": ["play","photoshop"],
+    "protected": false,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/gallery/notepads/list/notepad-people_rncwvu_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "15",
+    "section": "Gallery",
+    "title": "Curios Martian",
+    "subhead": "Adobe Photoshop",
+    "description": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text.",
+    "enabled": true,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "filters": ["play","photoshop"],
+    "protected": false,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/gallery/martian/list/martian_uo1hz7_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "16",
+    "section": "Gallery",
+    "title": "Flash Glow",
+    "subhead": "Adobe Photoshop",
+    "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "enabled": true,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "filters": ["play","illustrator"],
+    "protected": false,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/gallery/flashglow/list/flashglow_qizuwg_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "17",
+    "section": "Gallery",
+    "title": "Contemporary Cover",
+    "subhead": "Adobe Photoshop",
+    "description": "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover many web sites still in their infancy.",
+    "enabled": true,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "filters": ["play","photoshop"],
+    "protected": false,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/gallery/contempcover/list/contemporary-cover_n6sxau_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "18",
+    "section": "Gallery",
+    "title": "Morning Tranquility",
+    "subhead": "Adobe Photoshop",
+    "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+    "enabled": true,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "filters": ["play","photoshop"],
+    "protected": false,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/gallery/flower-dreams/list/flower-dreams_csjmpi_c_scale,w_800.jpg"
+        }]
+    }]
+}, {
+    "id": "19",
+    "section": "Gallery",
+    "title": "Azteca",
+    "subhead": "Adobe Photoshop",
+    "description": "The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+    "enabled": true,
+    "gradient_start": "#7b1223",
+    "gradient_end": "#ffefb0",
+    "filters": ["play","photoshop"],
+    "protected": false,
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "800w",
+            "source": "/assets/img/gallery/azteca/list/azteca_rmhuct_c_scale,w_800.jpg"
+        }]
+    }]
+}]

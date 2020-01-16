@@ -1,0 +1,189 @@
+/* ==========================================================================
+ Carousel
+========================================================================== */
+
+.carousel {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    .sliderbg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transform: translateY(0) translateZ(0);
+        transition: all 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
+    }
+
+    .sliderbg.is-active {
+        opacity: 1;
+    }
+
+    .sliderbg.home {
+        background-color: #000;
+    }
+
+    .sliderbg.work {
+        background-color: #ffca08;
+    }
+
+    .sliderbg.play {
+        background-color: #d31e00;
+    }
+
+    /* ==========================================================================
+    Work Slide
+    ========================================================================== */
+
+    .slidercopy {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        backface-visibility: hidden;
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            opacity: 1;
+            transition: all 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
+            transition-delay: .3s;
+            transform: scale(1) rotate(0) translateX(0) translateY(0) translateZ(0); 
+        }
+        .col-md-6 {
+            opacity: 0;
+            transition: all 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
+            transform: scale(0) rotate(0) translateX(0) translateY(0) translateZ(0);
+        }
+        .col-md-6.from-top {
+            transform: rotate(0) translateX(0) translateY(-100%) translateZ(0);
+        }
+        .col-md-6.from-right {
+            transform: rotate(0) translateX(100%) translateY(0) translateZ(0);
+        }
+        .col-md-6.from-bottom {
+            transform: rotate(0) translateX(0) translateY(100%) translateZ(0);
+        }
+        .col-md-6.from-left {
+            transform: rotate(0) translateX(-100%) translateY(0) translateZ(0);
+        }
+        .slide.is-active .col-md-6 {
+            opacity: 1;
+            transform: scale(1) rotate(0) translateX(0) translateY(0) translateZ(0);
+            transition: all 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
+        }
+    }
+
+    .slidermedia {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        backface-visibility: hidden;
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            opacity: 1;
+            transition: all 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
+            transition-delay: .3s;
+            transform: scale(1) rotate(0) translateX(0) translateY(0) translateZ(0); 
+        }
+        .col-md-6 {
+            opacity: 0;
+            transition: all 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
+            transform: scale(0) rotate(0) translateX(0) translateY(0) translateZ(0);
+        }
+        .col-md-6.from-top {
+            transform: rotate(0) translateX(0) translateY(-100%) translateZ(0);
+        }
+        .col-md-6.from-right {
+            transform: rotate(0) translateX(100%) translateY(0) translateZ(0);
+        }
+        .col-md-6.from-bottom {
+            transform: rotate(0) translateX(0) translateY(100%) translateZ(0);
+        }
+        .col-md-6.from-left {
+            transform: rotate(0) translateX(-100%) translateY(0) translateZ(0);
+        }
+        .slide.is-active .col-md-6 {
+            opacity: 1;
+            transform: scale(1) rotate(0) translateX(0) translateY(0) translateZ(0);
+            transition: all 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
+        }
+    }
+
+    /* ==========================================================================
+    Copy
+    ========================================================================== */
+
+    .slidercopy {
+        z-index: 1;
+        .col-md-6:first-of-type {
+            text-align: right;
+        }
+        span {
+            display: block;
+        }
+        .title {
+            color: #cd417a;
+            color: #000;
+            display: block;
+            @include font-family-copy(700);
+            font-size: 8vw;
+            letter-spacing: -0.03em;
+            white-space: nowrap;
+            text-transform: lowercase;
+            transform: scale(1) rotate(0) translateX(0) translateY(0) translateZ(0);
+            transition: transform 1s cubic-bezier(.23,1,.32,1);
+        }
+    }
+
+    .slidercopy .home h2.title {
+        color: #FFF;
+    }
+
+    .slidercopy .work h2.title {
+        color: #FFF;
+    }
+
+    .slidercopy .play h2.title {
+        color: #fff;
+    }
+}
+
+.is-loading .carousel .slidercopy .is-active .row {
+    opacity: 0;
+    transform: scale(1.5) rotate(20deg) translateX(15vw) translateY(15%) translateZ(0);
+}
+
+.is-loading .carousel .slidermedia .is-active .row {
+    opacity: 0;
+    transform: rotate(5deg) translateY(-50%) translateZ(0);
+}

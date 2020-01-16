@@ -1,0 +1,308 @@
+/* ==========================================================================
+ Reset 
+========================================================================== */
+
+* {
+    -webkit-overflow-scrolling: touch;
+}
+
+*,:after,:before,html {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+  
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body.is-fixed {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    margin: 0;
+    @include font-family-copy(400);
+    font-size: 18px;
+    line-height: 26px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #000;
+}
+
+::selection {
+    color: #fff;
+    background: #000;
+}
+
+img,
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* ==========================================================================
+ Typography
+========================================================================== */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a,a:focus, a:hover, a:active {
+    outline: 0;
+    text-decoration: none;
+}
+
+p {
+    @include font-family-copy(400);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    @include font-family-header(700);
+}
+
+/* ==========================================================================
+ Container
+========================================================================== */
+
+.application {
+    min-height: 100vh;
+}
+
+.application.is-loading {
+    cursor: wait;
+}
+
+.page {
+    opacity: 1;
+    transition: opacity 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
+}
+
+is-loading .page {
+    opacity: 0;
+    transition: none;
+}
+
+.container-fluid {
+    max-width: 1640px;
+}
+
+@media (max-width: 768px) {
+    .hidden-md,
+    .hidden-lg {
+        display: none;
+    }
+}
+
+/* ==========================================================================
+ Video Overlay
+========================================================================== */
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    .controls {
+        display: inline-block;
+        position: absolute;
+        bottom: 20px;
+        left: 50px;
+    }
+    p {
+        display: inline-block;
+        color: #fff;
+        font-family: "Roboto", "san-serif";
+        font-weight: 600;
+        font-size: 1.4rem;
+        letter-spacing: 3px;
+    }
+    span {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+    span:before, 
+    span:after {
+        content: '';
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        top: 50%;
+        margin-top: -0.5px;
+        background: #fff;
+    }
+    span:before {
+        left: -2.5px;
+    }
+    span:after {
+        right: 2.5px;
+        background: #fff;
+        transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
+    span:hover:before {
+        background: #fff;
+        width: 100%;
+        transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
+    span:hover:after {
+        background: transparent;
+        width: 100%;
+        transition: 0s;
+    }
+}
+
+/* ==========================================================================
+ Page Hero
+========================================================================== */
+
+.page-hero {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    h3 {
+        color: #111;
+        white-space: nowrap;
+        text-align: center;
+        @include font-family-medium(600);
+        font-size: 12vw;
+        letter-spacing: -0.03em;
+        white-space: nowrap;
+        text-transform: lowercase;
+        margin-top: -5rem;
+        margin-left: -50%;
+        margin-right: -50%;
+        opacity: 1;
+        user-select: none;
+        transform: translateX(0) translateZ(0);
+        transition: transform 2s cubic-bezier(.23,1,.32,1), opacity 1s cubic-bezier(.23,1,.32,1);
+    }
+    h3 span {
+        color: white;
+    }
+    h3.offscreen {
+        opacity: 0;
+        transform: translateX(200%) translateZ(0);
+    }
+    p.pressdown,
+    p.scrolldown {
+        transition: all 4s cubic-bezier(.23,1,.32,1);
+    }
+}
+
+.is-loading .page .page-hero h3 {
+    opacity: 0;
+    transform: translateX(-200%) translateZ(0);
+}
+
+.is-video .page .page-hero p.pressdown {
+    opacity: 0;
+    transform: translateX(-200%) translateZ(0);
+}
+
+.is-video .page .page-hero p.scrolldown {
+    color: #fff;
+}
+
+.is-video .page .page-hero p.scrolldown span:after {
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.is-video .page .page-hero p.scrolldown span:hover:before {
+    background: #fff;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.is-video .page .page-hero p.scrolldown span:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+}
+
+/* ==========================================================================
+ Page Title
+========================================================================== */
+
+.page-title {
+    h1 {
+        color: #fff;
+        white-space: nowrap;
+        text-align: left;
+        @include font-family-medium(600);
+        font-size: 10vw;
+        margin: 8rem 0;
+        letter-spacing: 0.02em;
+        text-transform: lowercase;
+    }
+    p {
+        color: #999 !important;
+        @include font-family-medium(400);
+        font-size: 32px !important;
+        line-height: 4rem !important;
+    }
+}
+
+/* ==========================================================================
+ Overlay
+========================================================================== */
+
+.layout-overlay {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: white;
+    opacity: 0;
+    -webkit-transition: 1.2s ease;
+    transition: 1.2s ease;
+    pointer-events: none;
+}
+
+.layout-overlay p {
+    text-align: center;
+    top: 50%;
+    font-size: 70px;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+    transform: translateX(-3%) translateY(-50%);
+    opacity: 0;
+    transition: 1s ease;
+    transition-delay: 1.5s;
+}
+
+.layout-overlay.show {
+    opacity: 1;
+}
+
+.layout-overlay.show p {
+    transform: translateX(0) translateY(-50%);
+    opacity: 1;
+}

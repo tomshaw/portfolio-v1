@@ -1,0 +1,59 @@
+/* ==========================================================================
+Vertical Text
+========================================================================== */
+
+ .vertical-text {
+    //display: none;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 700ms cubic-bezier(0.8, 0, 0.55, 0.94), transform 700ms cubic-bezier(0.8, 0, 0.55, 0.94);
+}
+
+ .vertical-text p {
+	color: #fff;
+	display: inline-block;
+	@include font-family-serif(600);
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+ .vertical-text .separator {
+	background: #fff;
+	display: inline-block;
+	width: 30px;
+	height: 2px;
+	margin: 3px 10px 5px 10px;
+}
+
+ .vertical-text.vright {
+	top: 40%;
+	right: 2%;
+	opacity: 1;
+	transform-origin: top right;
+	transform: rotate(90deg) translateX(100%);
+}
+
+ .vertical-text.vleft {
+	left: 25px;
+	bottom: 0;
+	opacity: 1;
+	transform-origin: top left;
+	transform: rotate(-90deg) translateX(0);
+}
+
+main.is-loading .vertical-text.vright {
+    opacity: 0;
+    transform: rotate(90deg) translateX(-100%) translateZ(0);
+}
+
+main.is-loading .vertical-text.vleft {
+    opacity: 0;
+    transform: rotate(-90deg) translateX(-100%) translateZ(0);
+}
+
+@media (min-width: 992px) {
+	.vertical-text {
+		display: block;
+	}
+}

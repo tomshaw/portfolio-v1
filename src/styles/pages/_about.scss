@@ -1,0 +1,151 @@
+/* ==========================================================================
+ About
+========================================================================== */
+
+.page-about {
+    .waves {
+        position: relative;
+        display: block;
+        overflow: hidden;
+    }
+    canvas { 
+        width: 100%;
+        height: auto;
+    }
+    .content h2 {
+        color: #111;
+        white-space: nowrap;
+        text-align: left;
+        @include font-family-header(700);
+        font-size: 5vw;
+        margin: 5rem 0 5rem 0;
+        letter-spacing: -0.05em;
+        transform: translateX(-200%) translateZ(0);
+        transition: transform .9s cubic-bezier(.23,1,.32,1), opacity .9s cubic-bezier(.23,1,.32,1);
+    }
+    .content h2.is-active {
+        transform: translateX(0) translateZ(0);
+    }
+    .content h2 span {
+        color: white;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .content p {
+        color: #333;
+        //@include font-family-light(400);
+        margin: 3rem 0;
+    }
+}
+
+/* ==========================================================================
+ Technical Skills
+========================================================================== */
+
+.page-about {
+    ul.technical {
+        display: block;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    ul.technical li {
+        display: block;
+        margin: 0;
+        padding: 0;
+        color: #121212;
+        @include font-family-copy(400);
+        margin: 1rem 0;
+    }
+    ul.technical li strong {
+        display: block;
+        margin: 2px 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-about {
+        ul.technical li {
+            margin: 2rem 0;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .page-about {
+        ul.technical li {
+            margin: 2.5rem 0;
+        }
+    }
+}
+
+/* ==========================================================================
+ Table Experience
+========================================================================== */
+
+.page-about {
+    .content table {
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .content td {
+        width: 100%;
+        padding-right: 30px;
+        overflow: hidden;
+        display: block;
+    }
+    .content th {
+        text-align: left;
+        width: 25%;
+        min-width: 100px;
+        padding-top: 10px;
+        display: block;
+    }
+    .content td,
+    .content th {
+        line-height: 3rem;
+        color: #121212;
+        @include font-family-copy(400);
+        margin: 5px 0;
+    }
+}
+
+/* ==========================================================================
+ Github Activity
+========================================================================== */
+
+.page-about {
+    .content ul#activity {
+        margin: 0;
+    }
+    .content ul#activity li {
+        margin: 2px 0;
+        padding: 0;
+        list-style: none;
+    }
+    .content ul#activity li img {
+        width: 3rem;
+        margin: .2rem 1rem 1rem 1rem;
+    }
+    .content ul#activity li a,
+    .content ul#activity li p,
+    .content ul#activity li span,
+    .content ul#activity li strong {
+        display: inline-block;
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #121212;
+        @include font-family-copy(400);
+        margin: 0;
+    }
+    .content ul#activity li a {
+        text-decoration: underline;
+    }
+
+    .content ul#activity li p {
+        color: #959da5 !important;
+    }
+}
+    

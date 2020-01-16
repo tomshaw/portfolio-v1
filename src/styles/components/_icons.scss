@@ -1,0 +1,89 @@
+
+/* ==========================================================================
+ Audio
+========================================================================== */
+
+.audio-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.audio-icon .audio-icon-bg {
+    background: #000;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 11px;
+    margin-right: 1px;
+    opacity: 1;
+}
+
+.audio-icon .audio-icon-bg:nth-child(1) {
+    height: 2px;
+    animation-delay: 0s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(2) {
+    height: 4px;
+    animation-delay: .2s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(3) {
+    height: 10px;
+    animation-delay: .4s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(4) {
+    height: 11px;
+    animation-delay: .6s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(5) {
+    height: 6px;
+    animation-delay: .8s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(6) {
+    height: 8px;
+    animation-delay: 1s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(7) {
+    height: 4px;
+    animation-delay: 1.2s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(8) {
+    height: 2px;
+    animation-delay: 1.4s;
+}
+
+.audio-icon .audio-icon-bg:nth-child(9) {
+    height: 2px;
+    animation-delay: 1.6s;
+}
+
+.audio-icon.is-playing .audio-icon-bg {
+    transition-delay: .2s;
+    animation-name: sound;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sound {
+    0%, 100% {
+        transform: scaleY(1);
+    }
+
+    25% {
+        transform: scaleY(.5);
+    }
+
+    50% {
+        transform: scaleY(.85);
+    }
+
+    75% {
+        transform: scaleY(.25);
+    }
+}

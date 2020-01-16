@@ -1,0 +1,42 @@
+/* ==========================================================================
+ Loader 
+========================================================================== */
+
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    z-index: 1000;
+    .wrapper {
+        perspective: 2000px;
+    }
+    .loading-bar {
+        display: block;
+        width: 90%;
+        width: calc(100vw - 5vw);
+        height: 5px;
+        margin: 0 auto 5px auto;
+        text-align: right;
+    }
+    .loading-bar .bar {
+        background: #000;
+        display: block;
+        height: 100%;
+    }
+    .number {
+        color: #000;
+        display: block;
+        margin: 0;
+        padding: 10px 0;
+        opacity: 1;
+    }
+}

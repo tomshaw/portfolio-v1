@@ -1,0 +1,105 @@
+/* ==========================================================================
+Importing the Breakpoints into JavaScript
+@see https://www.lullabot.com/blog/article/importing-css-breakpoints-javascript
+========================================================================== */
+
+@media (min-width: 480px) {
+    body:before {
+        content: "xsmall:480";
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    body:before {
+        content: "small:768";
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    body:before {
+        content: "medium:992";
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    body:before {
+        content: "large:1200";
+        display: none;
+    }
+}
+
+hr,
+hr.rule.rule1,
+hr.rule.rule2,
+hr.rule.rule3,
+hr.rule.rule4,
+hr.rule.rule5,
+hr.rule.rule6,
+hr.rule.rule7,
+hr.rule.rule8,
+hr.rule.rule9,
+hr.rule.rule10 {
+    margin: 5px 0;
+    user-select: none;
+}
+
+hr.rule.rule1 {
+    border-bottom: 1px solid #000;
+    border-bottom-width: 1px;
+}
+hr.rule.rule2 {
+    border-bottom: 2px solid #000;
+    border-bottom-width: 2px;
+}
+hr.rule.rule3 {
+    border-bottom: 3px solid #000;
+    border-bottom-width: 3px;
+}
+hr.rule.rule4 {
+    border-bottom: 4px solid #000;
+    border-bottom-width: 4px;
+}
+hr.rule.rule5 {
+    border-bottom: 5px solid #000;
+    border-bottom-width: 5px;
+}
+hr.rule.rule6 {
+    border-bottom: 6px solid #000;
+    border-bottom-width: 6px;
+}
+hr.rule.rule7 {
+    border-bottom: 7px solid #000;
+    border-bottom-width: 7px;
+}
+hr.rule.rule8 {
+    border-bottom: 8px solid #000;
+    border-bottom-width: 8px;
+}
+hr.rule.rule9 {
+    border-bottom: 9px solid #000;
+    border-bottom-width: 9px;
+}
+hr.rule.rule10 {
+    border-bottom: 10px solid #000;
+    border-bottom-width: 10px;
+}
+
+.text-left {
+    text-align: left !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.text-right {
+    text-align: right !important;
+}	
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}

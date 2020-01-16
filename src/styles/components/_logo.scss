@@ -1,0 +1,82 @@
+/* ==========================================================================
+ Logo
+========================================================================== */
+
+.logo {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    margin: 0;
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 10;
+    user-select: none;
+    opacity: 1;
+    z-index: 1;
+    transition: 1s all ease-out;
+    transform: translateY(0) translateZ(0);
+}
+
+/*.is-loading .logo {
+    opacity: 0;
+    transform: translateX(-100%) translateZ(0);
+}*/
+
+.logo #svg-main-logo .t,
+.logo #svg-main-logo .o,
+.logo #svg-main-logo .m,
+.logo #svg-main-logo .s,
+.logo #svg-main-logo .h,
+.logo #svg-main-logo .a,
+.logo #svg-main-logo .w {
+    transform: translateY(0);
+}
+
+.logo.rotate #svg-main-logo .t {
+    animation: animateLetters .4s cubic-bezier(.645,.045,.355,1);
+}
+
+.logo.rotate #svg-main-logo .o {
+    animation: animateLetters .4s cubic-bezier(.645,.045,.355,1) .06667s;
+}
+
+.logo.rotate #svg-main-logo .m {
+    animation: animateLetters .4s cubic-bezier(.645,.045,.355,1) .13333s;
+}
+
+.logo.rotate #svg-main-logo .s {
+    animation: animateLetters .4s cubic-bezier(.645,.045,.355,1) .16667s;
+}
+
+.logo.rotate #svg-main-logo .h {
+    animation: animateLetters .4s cubic-bezier(.645,.045,.355,1) .23333s;
+}
+
+.logo.rotate #svg-main-logo .a {
+    animation: animateLetters .4s cubic-bezier(.645,.045,.355,1) .26667s;
+}
+
+.logo.rotate #svg-main-logo .w {
+    animation: animateLetters .4s cubic-bezier(.645,.045,.355,1) .33333s;
+}
+
+@keyframes animateLetters {
+    0% {
+        transform: translateY(0);
+    }
+
+    49.999% {
+        transform: translateY(-200px);
+    }
+
+    50% {
+        transform: translateY(200px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}

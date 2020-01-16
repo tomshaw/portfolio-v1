@@ -1,0 +1,55 @@
+/* ==========================================================================
+ Buttons <a class="project-button" href="/">View Project</a>
+========================================================================== */
+
+.project-button {
+    color: #fff;
+	background: #F7CB4A;
+	display: inline-block;
+    @include font-family-copy(600);
+    font-size: 12px;
+    line-height: 12px;
+	letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+	padding: 10px 15px 8px 15px;
+    margin: 0;
+    outline: none;
+    transition-duration: 0.1s;
+}
+
+.project-button:hover {
+	color: #fff;
+    background: #cc3366;
+    transition-duration: 0.235s;
+}
+
+/* ==========================================================================
+ Buttons <div className="box-button"> <a href="/">Show More</a> </div>
+========================================================================== */
+
+.box-button {
+    width: 100%;
+    display: block;
+}
+
+.box-button a {
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+    border: 2px solid #666;
+    padding: 8px 40px;
+}
+
+.box-button a:hover {
+    opacity: .8;
+}
+
+@media (max-width: 768px) {
+    .box-button {
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+}

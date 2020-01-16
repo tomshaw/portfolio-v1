@@ -1,0 +1,281 @@
+/* ==========================================================================
+SCSS Mixins
+========================================================================== */
+
+/**
+ * http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
+ *
+ * @include vertical-align();
+ */
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin fluid-type($properties, $min-screen, $max-screen, $min-value, $max-value) {
+  & {
+    @each $property in $properties {
+      #{$property}: $min-value;
+    }
+
+    @media screen and (min-width: $min-screen) {
+      @each $property in $properties {
+        #{$property}: calc-interpolation($min-screen, $min-value, $max-screen, $max-value); 
+      }
+    }
+
+    @media screen and (min-width: $max-screen) {
+      @each $property in $properties {
+        #{$property}: $max-value;
+      }
+    }
+  }
+}
+
+@function calc-interpolation($min-screen, $min-value, $max-screen, $max-value) {
+	$a: ($max-value - $min-value) / ($max-screen - $min-screen);
+	$b: $min-value - $a * $min-screen; 
+
+	$sign: "+";
+	@if ($b < 0) {
+		$sign: "-";
+		$b: abs($b);
+	}
+	@return calc(#{$a*100}vw #{$sign} #{$b});
+}
+
+/* ==========================================================================
+ * Push Auto
+ * To quickly centre a block element without having to worry about if there 
+ * is any top or bottom margin already applied.
+========================================================================== */
+
+@mixin push--auto {
+    margin: { 
+        left: auto;
+        right: auto;
+    }
+}
+
+/* ==========================================================================
+ * Pseudo
+ * When using ::before and ::after you'll always need these three, so we're 
+ * saving two lines of code every time you use this.
+========================================================================== */
+
+@mixin pseudo($display: block, $pos: absolute, $content: ''){
+    content: $content;
+    display: $display;
+    position: $pos;
+}
+
+/* ==========================================================================
+ Placeholders
+ 
+ @mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+    
+    input,  
+    textarea {  
+        @include input-placeholder {
+            color: $grey;
+        }
+    }
+}
+========================================================================== */
+
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+
+/* ==========================================================================
+ * Media queries
+ * http://engageinteractive.co.uk/blog/top-10-scss-mixins
+ *
+ *  @include mq('tablet-wide') {
+ *     padding-top: 4rem;
+ *     font-size: 2.4rem;
+ *  }
+========================================================================== */
+
+$breakpoints: (
+    "phone":        400px,
+    "phone-wide":   480px,
+    "phablet":      560px,
+    "tablet-small": 640px,
+    "tablet":       768px,
+    "tablet-wide":  1024px,
+    "desktop":      1248px,
+    "desktop-wide": 1440px
+);
+
+@mixin mq($width, $type: min) {
+    @if map_has_key($breakpoints, $width) {
+        $width: map_get($breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}
+
+/* ==========================================================================
+ Force Hardware Acceleration Mixin
+========================================================================== */
+
+@mixin accelerate($name) {
+    will-change: $name;
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+         -o-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-perspective: 1000;
+       -moz-perspective: 1000;
+        -ms-perspective: 1000;
+            perspective: 1000;
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+
+/* ==========================================================================
+ Media Queries
+========================================================================== */
+
+@mixin MQ($canvas) {
+  @if $canvas == S {
+    @media only screen and (min-width: $S) { @content; } 
+  }
+  @else if $canvas == M {
+    @media only screen and (min-width: $M) { @content; } 
+  }
+  @else if $canvas == L {
+    @media only screen and (min-width: $L) { @content; } 
+  }
+  @else if $canvas == XL {
+    @media only screen and (min-width: $XL) { @content; } 
+  }
+}
+
+/* ==========================================================================
+ Simple Rotate Element
+========================================================================== */
+
+@mixin tilt($rotate, $v, $h) {
+  -webkit-transform: rotate($rotate) tranlate($v, $h);
+      -ms-transform: rotate($rotate) tranlate($v, $h);
+          transform: rotate($rotate) tranlate($v, $h);
+}
+
+/* ==========================================================================
+ Rem Fallback - credits: http://zerosixthree.se/
+========================================================================== */
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+/* ==========================================================================
+ Center Vertically/Horizontally an absolute positioned element
+========================================================================== */
+
+@mixin center($xy:xy) {
+  @if $xy == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    @include transform(translateX(-50%) translateY(-50%));
+  }
+  @else if $xy == x {
+    left: 50%;
+    right: auto;
+    @include transform(translateX(-50%));
+  }
+  @else if $xy == y {
+    top: 50%;
+    bottom: auto;
+    @include transform(translateY(-50%));
+  }
+}
+
+/* ==========================================================================
+ Border Radius
+========================================================================== */
+
+@mixin border-radius($radius:.25em) {
+  border-radius: $radius;
+}
+
+/* ==========================================================================
+ antialiasing mode font rendering
+========================================================================== */
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+ * @mixin cover-background() 
+ * 
+ * --Parameters:
+ * 
+ * $img: URI of image you want to use as the background 
+ * 
+ * --Optional:
+ * $background-top:  Defaults to "center - sets the "top" value of the background position
+ * $background-left: Defaults to "center - sets the "left" value of the background position.
+ * $background-attachment: Defaults to "fixed" - allows you to specify background attachment.
+========================================================================== */
+
+@mixin cover-background($img, $background-top:"center", $background-left:"center", $background-attachment:"fixed") {
+  background: url($img) no-repeat unquote($background-top) unquote($background-left) unquote($background-attachment); 
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;  
+}
+
+/* ==========================================================================
+ * Maintain Aspect Ratio Mixin
+ * @see http://css-tricks.com/snippets/sass/maintain-aspect-ratio-mixin/
+========================================================================== */
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

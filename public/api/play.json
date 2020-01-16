@@ -1,0 +1,32 @@
+[{
+    "id": "1",
+    "section": "Play",
+    "title": "Infinite Causes",
+    "tagline": "Progressive Web Design",
+    "description": "Infinite Causes is the worlds leading brand of electronic cigarettes. Find out how I helped improve their online presence and increase revenue.",
+    "meta_title": "Infinite Causes - Tom Shaw",
+    "meta_description": "Infinite Causes is the worlds leading brand of electronic cigarettes. Find out how I helped SmokeStik improve their online presence and increase revenue.",
+    "theme": "lightplus",
+    "slug": "infinite-causes",
+    "resource": "/play/infinite-causes/index.html",
+    "selector": ".page-play",
+    "element": "page-play",
+    "enabled": true,
+    "target": "_self",
+    "gradient_start": "#66a6fe",
+    "gradient_end": "#88f7ff",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/play/infinite-causes/infinite-causes_jqormx_c_scale,w_200.jpg"
+        }, {
+            "width": "584w",
+            "source": "/assets/img/play/infinite-causes/infinite-causes_jqormx_c_scale,w_584.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/play/infinite-causes/infinite-causes_jqormx_c_scale,w_800.jpg"
+        }]
+    }]
+}]

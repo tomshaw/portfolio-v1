@@ -1,0 +1,508 @@
+[{
+    "id": "1",
+    "section": "Work",
+    "title": "SmokeStik Electronic Cigarettes",
+    "tagline": "Magento Module Development",
+    "description": "SmokeStik is the worlds leading brand of electronic cigarettes. Find out how I helped improve their online presence and increase revenue.",
+    "meta_title": "SmokeStik Electronic Cigarettes - Tom Shaw",
+    "meta_description": "SmokeStik is the worlds leading brand of electronic cigarettes. Find out how I helped SmokeStik improve their online presence and increase revenue.",
+    "theme": "lightplus",
+    "slug": "smokestik-electronic-cigarettes",
+    "resource": "/work/smokestik-electronic-cigarettes",
+    "selector": ".page-work",
+    "element": "page-work",
+    "header": true,
+    "navigation": true,
+    "typography": true,
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#66a6fe",
+    "gradient_end": "#88f7ff",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/work/smokestik/list/smokestik-eletronic-cigarettes_fb1kav_c_scale,w_200.jpg"
+        }, {
+            "width": "402w",
+            "source": "/assets/img/work/smokestik/list/smokestik-eletronic-cigarettes_fb1kav_c_scale,w_402.jpg"
+        }, {
+            "width": "555w",
+            "source": "/assets/img/work/smokestik/list/smokestik-eletronic-cigarettes_fb1kav_c_scale,w_555.jpg"
+        }, {
+            "width": "683w",
+            "source": "/assets/img/work/smokestik/list/smokestik-eletronic-cigarettes_fb1kav_c_scale,w_683.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/work/smokestik/list/smokestik-eletronic-cigarettes_fb1kav_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": [{
+        "type": "single",
+        "styles": [],
+        "title": "SmokeStik Electronic Cigarettes",
+        "media_sets": [{
+            "type": "image",
+            "sizes": "(max-width: 1400px) 100vw, 1400px",
+            "breakpoints": [{
+                "width": "200w",
+                "source": "/assets/img/work/smokestik/view/smokestik_khx09i_c_scale,w_200.jpg"
+            }, {
+                "width": "711w",
+                "source": "/assets/img/work/smokestik/view/smokestik_khx09i_c_scale,w_711.jpg"
+            }, {
+                "width": "1041w",
+                "source": "/assets/img/work/smokestik/view/smokestik_khx09i_c_scale,w_1041.jpg"
+            }, {
+                "width": "1266w",
+                "source": "/assets/img/work/smokestik/view/smokestik_khx09i_c_scale,w_1266.jpg"
+            }, {
+                "width": "1400w",
+                "source": "/assets/img/work/smokestik/view/smokestik_khx09i_c_scale,w_1400.jpg"
+            }]
+        }]
+    }, {
+        "type": "dual",
+        "styles": ["padding"],
+        "text": [{
+            "left": [{
+                "title": "Magento Module Development",
+                "desc": "Developed an Administrative Control Panel that allowed administrators to make payments on commissions, assign users as distributors, generate coupons and much more."
+            }],
+            "right": [{
+                "title": "Magento Commission Dashboard",
+                "desc": "Designed Access Controlled systems that allowed distributers to review monies earned and salesman commission data using Magendo Grids and stunning line bar and pie charts."
+            }]
+        }],
+        "media_sets": [{
+            "type": "image",
+            "sizes": "(max-width: 800px) 100vw, 800px",
+            "breakpoints": [{
+                "left": [{
+                    "width": "200w",
+                    "source": "/assets/img/work/smokestik/view/smokestik-left_amvvww_c_scale,w_200.jpg"
+                }, {
+                    "width": "403w",
+                    "source": "/assets/img/work/smokestik/view/smokestik-left_amvvww_c_scale,w_403.jpg"
+                }, {
+                    "width": "556w",
+                    "source": "/assets/img/work/smokestik/view/smokestik-left_amvvww_c_scale,w_556.jpg"
+                }, {
+                    "width": "683w",
+                    "source": "/assets/img/work/smokestik/view/smokestik-left_amvvww_c_scale,w_683.jpg"
+                }, {
+                    "width": "800w",
+                    "source": "/assets/img/work/smokestik/view/smokestik-left_amvvww_c_scale,w_800.jpg"
+                }],
+                "right": [{
+                    "width": "200w",
+                    "source": "/assets/img/work/smokestik/view/smokestik-left_amvvww_c_scale,w_200.jpg"
+                }, {
+                    "width": "403w",
+                    "source": "/assets/img/work/smokestik/view/smokestik-left_amvvww_c_scale,w_403.jpg"
+                }, {
+                    "width": "556w",
+                    "source": "/assets/img/work/smokestik/view/smokestik-left_amvvww_c_scale,w_556.jpg"
+                }, {
+                    "width": "683w",
+                    "source": "/assets/img/work/smokestik/view/smokestik-left_amvvww_c_scale,w_683.jpg"
+                }, {
+                    "width": "800w",
+                    "source": "/assets/img/work/smokestik/view/smokestik-left_amvvww_c_scale,w_800.jpg"
+                }]
+            }]
+        }]
+    }, {
+        "type": "pair",
+        "styles": ["padding"],
+        "title": "Magento Data Importer",
+        "desc": "Developed a highly proprietary Magento Data Import Module that was used to import tens of thousands of Sales Orders, Customers and Groups and Distributer and Commissions data from a pre existing system.",
+        "halign": "left",
+        "valign": "center",
+        "media_sets": [{
+            "type": "image",
+            "sizes": "(max-width: 800px) 100vw, 800px",
+            "breakpoints": [{
+                "width": "190w",
+                "source": "/assets/img/work/smokestik/view/smokestik-hindu_meflcf_c_scale,w_190.jpg"
+            }, {
+                "width": "418w",
+                "source": "/assets/img/work/smokestik/view/smokestik-hindu_meflcf_c_scale,w_418.jpg"
+            }, {
+                "width": "585w",
+                "source": "/assets/img/work/smokestik/view/smokestik-hindu_meflcf_c_scale,w_585.jpg"
+            }, {
+                "width": "1728w",
+                "source": "/assets/img/work/smokestik/view/smokestik-hindu_meflcf_c_scale,w_728.jpg"
+            }, {
+                "width": "800w",
+                "source": "/assets/img/work/smokestik/view/smokestik-hindu_meflcf_c_scale,w_800.jpg"
+            }]
+        }]
+    }, {
+        "type": "pair",
+        "styles": ["padding"],
+        "title": "Magento Module Development",
+        "desc": "Designed a Magento module to import tens of thousands of commissions into the newly developed Commission Tracking system",
+        "halign": "right",
+        "valign": "center",
+        "media_sets": [{
+            "type": "image",
+            "sizes": "(max-width: 800px) 100vw, 800px",
+            "breakpoints": [{
+                "width": "190w",
+                "source": "/assets/img/work/smokestik/view/smokestik-royale_h2ibpk_c_scale,w_190.jpg"
+            }, {
+                "width": "411w",
+                "source": "/assets/img/work/smokestik/view/smokestik-royale_h2ibpk_c_scale,w_411.jpg"
+            }, {
+                "width": "586w",
+                "source": "/assets/img/work/smokestik/view/smokestik-royale_h2ibpk_c_scale,w_586.jpg"
+            }, {
+                "width": "741w",
+                "source": "/assets/img/work/smokestik/view/smokestik-royale_h2ibpk_c_scale,w_741.jpg"
+            }, {
+                "width": "800w",
+                "source": "/assets/img/work/smokestik/view/smokestik-royale_h2ibpk_c_scale,w_800.jpg"
+            }]
+        }]
+    }]
+}, {
+    "id": "2",
+    "section": "Work",
+    "title": "Gold & Silver Buyers",
+    "tagline": "Custom Application Development",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "gold-silver-buyers",
+    "resource": false,
+    "selector": ".page-work",
+    "element": "page-work",
+    "header": true,
+    "navigation": true,
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#bd813b",
+    "gradient_end": "#f8da80",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/work/goldwiser/list/goldwiser_rt2i2w_c_scale,w_200.jpg"
+        }, {
+            "width": "427w",
+            "source": "/assets/img/work/goldwiser/list/goldwiser_rt2i2w_c_scale,w_427.jpg"
+        }, {
+            "width": "571w",
+            "source": "/assets/img/work/goldwiser/list/goldwiser_rt2i2w_c_scale,w_571.jpg"
+        }, {
+            "width": "717w",
+            "source": "/assets/img/work/goldwiser/list/goldwiser_rt2i2w_c_scale,w_717.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/work/goldwiser/list/goldwiser_rt2i2w_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "id": "3",
+    "section": "Work",
+    "title": "Uncle Julios",
+    "tagline": "Web Development",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "uncle-julios",
+    "resource": false,
+    "selector": ".page-work",
+    "element": "page-work",
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#faa405",
+    "gradient_end": "#f72215",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/work/unclejulios/list/uncle-julios_ifs2vh_c_scale,w_200.jpg"
+        }, {
+            "width": "419w",
+            "source": "/assets/img/work/unclejulios/list/uncle-julios_ifs2vh_c_scale,w_419.jpg"
+        }, {
+            "width": "565w",
+            "source": "/assets/img/work/unclejulios/list/uncle-julios_ifs2vh_c_scale,w_565.jpg"
+        }, {
+            "width": "714w",
+            "source": "/assets/img/work/unclejulios/list/uncle-julios_ifs2vh_c_scale,w_714.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/work/unclejulios/list/uncle-julios_ifs2vh_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "id": "4",
+    "section": "Work",
+    "title": "Lonestar Banners & Flags",
+    "tagline": "Web Development",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "lonestar-banners",
+    "resource": false,
+    "selector": ".page-work",
+    "element": "page-work",
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#002b65",
+    "gradient_end": "#9bacc2",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/work/lonestar/list/lonestar_cop4u3_c_scale,w_200.jpg"
+        }, {
+            "width": "415w",
+            "source": "/assets/img/work/lonestar/list/lonestar_cop4u3_c_scale,w_415.jpg"
+        }, {
+            "width": "586w",
+            "source": "/assets/img/work/lonestar/list/lonestar_cop4u3_c_scale,w_586.jpg"
+        }, {
+            "width": "715w",
+            "source": "/assets/img/work/lonestar/list/lonestar_cop4u3_c_scale,w_715.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/work/lonestar/list/lonestar_cop4u3_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "id": "5",
+    "section": "Work",
+    "title": "Southern Painting",
+    "tagline": "Web Development",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "southern-painting",
+    "resource": false,
+    "selector": ".page-work",
+    "element": "page-work",
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#ffd2d2",
+    "gradient_end": "#656768",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "190w",
+            "source": "/assets/img/work/southernpainting/list/southern-painting_ynus3s_c_scale,w_190.jpg"
+        }, {
+            "width": "402w",
+            "source": "/assets/img/work/southernpainting/list/southern-painting_ynus3s_c_scale,w_402.jpg"
+        }, {
+            "width": "553w",
+            "source": "/assets/img/work/southernpainting/list/southern-painting_ynus3s_c_scale,w_553.jpg"
+        }, {
+            "width": "686w",
+            "source": "/assets/img/work/southernpainting/list/southern-painting_ynus3s_c_scale,w_686.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/work/southernpainting/list/southern-painting_ynus3s_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "id": "6",
+    "section": "Work",
+    "title": "Treasure Tithes",
+    "tagline": "Wordpress Theme Development",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "treasure-tithes",
+    "resource": false,
+    "selector": ".page-work",
+    "element": "page-work",
+    "enabled": true,
+    "gradient_start": "#E54B25",
+    "gradient_end": "#FFFFFF",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "190w",
+            "source": "/assets/img/work/treasuretithes/list/treasure-tithes_byjm6b_c_scale,w_190.jpg"
+        }, {
+            "width": "397w",
+            "source": "/assets/img/work/treasuretithes/list/treasure-tithes_byjm6b_c_scale,w_397.jpg"
+        }, {
+            "width": "552w",
+            "source": "/assets/img/work/treasuretithes/list/treasure-tithes_byjm6b_c_scale,w_552.jpg"
+        }, {
+            "width": "682w",
+            "source": "/assets/img/work/treasuretithes/list/treasure-tithes_byjm6b_c_scale,w_682.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/work/treasuretithes/list/treasure-tithes_byjm6b_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "id": "8",
+    "section": "Work",
+    "title": "Majestic Living Waters",
+    "tagline": "Wordpress Theme Development",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "majestic-living-waters",
+    "resource": false,
+    "selector": ".page-work",
+    "element": "page-work",
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#028096",
+    "gradient_end": "#c5ebec",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/work/livingwaters/list/living-waters_gpeb1e_c_scale,w_200.jpg"
+        }, {
+            "width": "390w",
+            "source": "/assets/img/work/livingwaters/list/living-waters_gpeb1e_c_scale,w_390.jpg"
+        }, {
+            "width": "535w",
+            "source": "/assets/img/work/livingwaters/list/living-waters_gpeb1e_c_scale,w_535.jpg"
+        }, {
+            "width": "678w",
+            "source": "/assets/img/work/livingwaters/list/living-waters_gpeb1e_c_scale,w_678.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/work/livingwaters/list/living-waters_gpeb1e_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "id": "9",
+    "section": "Work",
+    "title": "Kenneth Ramey Photography",
+    "tagline": "Custom Application Development",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "kenneth-ramey-photography",
+    "resource": false,
+    "selector": ".page-work",
+    "element": "page-work",
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#232a39",
+    "gradient_end": "#ffbb59",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/work/kramey/list/kenneth-ramery_sh6phy_c_scale,w_200.jpg"
+        }, {
+            "width": "401w",
+            "source": "/assets/img/work/kramey/list/kenneth-ramery_sh6phy_c_scale,w_401.jpg"
+        }, {
+            "width": "555w",
+            "source": "/assets/img/work/kramey/list/kenneth-ramery_sh6phy_c_scale,w_555.jpg"
+        }, {
+            "width": "680w",
+            "source": "/assets/img/work/kramey/list/kenneth-ramery_sh6phy_c_scale,w_680.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/work/kramey/list/kenneth-ramery_sh6phy_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "id": "10",
+    "section": "Work",
+    "title": "Joyashi",
+    "tagline": "Wordpress Theme Development",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "joyashi",
+    "resource": false,
+    "selector": ".page-work",
+    "element": "page-work",
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#3C3331",
+    "gradient_end": "#3C322F",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/work/joyashi/list/joyashi_vewboo_c_scale,w_200.jpg"
+        }, {
+            "width": "568w",
+            "source": "/assets/img/work/joyashi/list/joyashi_vewboo_c_scale,w_568.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/work/joyashi/list/joyashi_vewboo_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}, {
+    "id": "11",
+    "section": "Work",
+    "title": "Malezieux Art",
+    "tagline": "Wordpress Theme Development",
+    "description": "",
+    "meta_title": "",
+    "meta_description": "",
+    "theme": "lightplus",
+    "slug": "malezieuxart",
+    "resource": false,
+    "selector": ".page-work",
+    "element": "page-work",
+    "stripes": false,
+    "enabled": true,
+    "gradient_start": "#3C3331",
+    "gradient_end": "#3C322F",
+    "media_sets": [{
+        "type": "image",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "breakpoints": [{
+            "width": "200w",
+            "source": "/assets/img/work/malezieuxart/list/malezieux_chnhd8_c_scale,w_200.jpg"
+        }, {
+            "width": "435w",
+            "source": "/assets/img/work/malezieuxart/list/malezieux_chnhd8_c_scale,w_435.jpg"
+        }, {
+            "width": "600w",
+            "source": "/assets/img/work/malezieuxart/list/malezieux_chnhd8_c_scale,w_600.jpg"
+        }, {
+            "width": "736w",
+            "source": "/assets/img/work/malezieuxart/list/malezieux_chnhd8_c_scale,w_736.jpg"
+        }, {
+            "width": "800w",
+            "source": "/assets/img/work/malezieuxart/list/malezieux_chnhd8_c_scale,w_800.jpg"
+        }]
+    }],
+    "content": []
+}]
